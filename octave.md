@@ -92,7 +92,7 @@ We can do Taylor (or Maclaurin) expansions. Here is an interesting one from [mat
 
 ![](taylor.png) 
 
-Note this formula only works when x is less than 1. It is a good exercise to work out where the factorials have gone. 
+Note this formula only works when |x| is less than 1. It is a good exercise to work out where the factorials have gone. 
 
 ---
 
