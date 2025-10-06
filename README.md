@@ -96,7 +96,7 @@ Note this formula only works when |x| is less than 1. It is a good exercise to w
 
 We can list the terms of the expansion with the powers of x increasing, rather than decreasing, as below: 
 
-![](/home/jon/octave_projects/reorderpoly.png) 
+![](reorderpoly.png) 
 
 ---
 
