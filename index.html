@@ -154,7 +154,13 @@
    <img alt="" src="taylor.png"/>
   </p>
   <p>
-   Note this formula only works when |x| is less than 1. It is a good exercise to work out where the factorials have gone.
+   Note this formula only works when |x| is less than 1. It is a good exercise to work out where the factorials have gone!
+  </p>
+  <p>
+   We can list the terms of the expansion with the powers of x increasing, rather than decreasing, as below:
+  </p>
+  <p>
+   <img alt="" src="/home/jon/octave_projects/reorderpoly.png"/>
   </p>
   <hr/>
   <p>
@@ -207,6 +213,14 @@
   </p>
   <p>
    <img alt="" src="latex.png"/>
+  </p>
+  <p>
+   Actually, it wasn't strictly necessary to swap the terms in the equation first because we could have achieved the same thing with the expression:
+  </p>
+  <pre><code>solve(y==x^2-x-1,x)
+</code></pre>
+  <p>
+   Note the double equals sign indicating that the program is doing a logical test for equality.
   </p>
   <p>
    This has been a tutorial on the Octave Symbolic package which uses the excellent SymPy package as its workhorse.

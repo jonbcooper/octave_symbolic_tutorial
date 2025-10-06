@@ -92,7 +92,11 @@ We can do Taylor (or Maclaurin) expansions. Here is an interesting one from [mat
 
 ![](taylor.png) 
 
-Note this formula only works when |x| is less than 1. It is a good exercise to work out where the factorials have gone. 
+Note this formula only works when |x| is less than 1. It is a good exercise to work out where the factorials have gone! 
+
+We can list the terms of the expansion with the powers of x increasing, rather than decreasing, as below: 
+
+![](/home/jon/octave_projects/reorderpoly.png) 
 
 ---
 
@@ -129,6 +133,12 @@ Note the \/ symbols mean a big square root sign i.e. everything in the numerator
 we get the relevant latex code that can be copied and pasted into a suitable viewer or editor to display the equations properly, as below.
 
 ![](latex.png) 
+
+Actually, it wasn't strictly necessary to swap the terms in the equation first because we could have achieved the same thing with the expression: 
+
+	solve(y==x^2-x-1,x)
+
+Note the double equals sign indicating that the program is doing a logical test for equality. 
 
 This has been a tutorial on the Octave Symbolic package which uses the excellent SymPy package as its workhorse. 
 
